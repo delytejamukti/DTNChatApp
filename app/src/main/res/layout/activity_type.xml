@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="me.aflak.bluetoothterminal.Type"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="75dp"
+        android:textStyle="bold"
+        android:textColor="#065bdb"
+        android:text="Select Type of DTN :" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/time_button"
+        android:layout_gravity="center_horizontal"
+        android:text="DTN Based Time"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:background="#4289f4"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/hop_button"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="DTN Based Hop"
+        android:background="#4289f4"
+        android:layout_marginTop="15dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/distance_btn"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:text="DTN Based Distance"
+        android:background="#4289f4"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
